@@ -6,7 +6,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         # List your project dependencies here
-        'python>=3.9.13',
         'numpy>=1.26.1',
         'pandas>=2.1.2',
     ],
