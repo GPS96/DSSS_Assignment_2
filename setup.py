@@ -6,10 +6,9 @@ setup(
     packages=find_packages(),
     install_requires=[
         # List your project dependencies here
-        'python>=3.7.0',
-        'numpy>=1.23.5',
-        'pandas>=1.5.3',
-        'openpyxl>=3.0.10'
+        'python>=3.9.13',
+        'numpy>=1.26.1',
+        'pandas>=2.1.2',
     ],
     entry_points={
         'console_scripts': [
