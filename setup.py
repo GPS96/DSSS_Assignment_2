@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dsss_assignment_2 = dsss_assignment_2.module:main_function',
+            'dsss_assignment_2 = dsss_assignment_2.module:math_quiz',
         ],
     },
     # Other project metadata
