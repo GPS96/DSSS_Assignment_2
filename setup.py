@@ -1,9 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='DSSS_Assignment_2',
+    name='math_quiz',
     version='0.1',
     packages=find_packages(),
+    py_modules= ['math_quiz'],
     install_requires=[
         # List your project dependencies here
         'numpy>=1.26.1',
@@ -11,7 +12,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dsss_assignment_2 = dsss_assignment_2.module:math_quiz',
+            'math_quiz = math_quiz:main',
         ],
     },
     # Other project metadata
